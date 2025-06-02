@@ -1,0 +1,84 @@
+.header {
+    height: 820px;
+    background-image: url('../images/header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.header__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    &__title {
+        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 26px;
+        letter-spacing: 4.8px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    &__tagline {
+        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 6.82px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    &__search-bar {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__search-input {
+        width: 653px;
+        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+        text-align: center;
+        padding: 10px; 
+        border: none;
+        color: #FFFFFF;
+    }
+
+    &__search-btn {
+        font-family: 'Courier New', Courier, monospace; /* ALEO */
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 1.4px;
+        padding: 10px 20px;
+        display: flex;
+        background-color: #5474FD;
+        color: white;
+        border: none;
+    }
+
+    &__scroll-down {
+        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
