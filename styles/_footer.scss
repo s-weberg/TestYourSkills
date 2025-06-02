@@ -1,0 +1,38 @@
+.footer__box {
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+
+    &__logo {
+        width: 186px;
+        height: 20px;
+    }
+
+    &__footer-text {
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+        color: #FFFFFF;
+        display: flex;
+    }
+}
+
+ .icon-box {
+       width: 1110px;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .icons {
+        width: 45px;
+        display: flex;
+        justify-content: center;
+    }
+
+

@@ -18,7 +18,7 @@
 
 
     &__title {
-        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+        font-family: "Montserrat", sans-serif; /* Josefine Sans */
         font-weight: bold;
         font-size: 48px;
         line-height: 26px;
@@ -28,7 +28,7 @@
     }
 
     &__tagline {
-        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+        font-family: "Montserrat", sans-serif; /* Josefine Sans */
         font-weight: bold;
         font-size: 22px;
         line-height: 26px;
@@ -44,7 +44,7 @@
 
     &__search-input {
         width: 653px;
-        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+        font-family: "Montserrat", sans-serif; /* Josefine Sans */
         font-weight: normal;
         font-size: 14px;
         line-height: 26px;
@@ -56,7 +56,8 @@
     }
 
     &__search-btn {
-        font-family: 'Courier New', Courier, monospace; /* ALEO */
+        width: 150px;
+        font-family: "Aleo", serif; /* ALEO */
         font-weight: normal;
         font-size: 14px;
         line-height: 26px;
@@ -66,10 +67,13 @@
         background-color: #5474FD;
         color: white;
         border: none;
+        display: flex;
+        justify-content: center;
     }
+}
 
-    &__scroll-down {
-        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+.header__section__scroll-down {
+        font-family: "Montserrat", sans-serif; /* Josefine Sans */
         font-weight: normal;
         font-size: 14px;
         line-height: 26px;
@@ -78,13 +82,34 @@
         color: #FFFFFF;
         display: flex;
         justify-content: center;
+        flex-direction: column;
+         
+
+
+    &__scroll {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+}
+
+
+.glas-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.arrow-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav__navbar {
     height: 80px;
     background-color: #5474FD;
-   
 
     display: flex;
     justify-content: space-around;
@@ -100,7 +125,7 @@
     }
 
     &__link {
-        font-family: 'Courier New', Courier, monospace; /* Josefine Sans */
+        font-family: "Aleo", serif;
         font-weight: normal;
         font-size: 14px;
         line-height: 26px;
