@@ -1,0 +1,52 @@
+.icons-container {
+    height: 340px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shape {
+    display: flex;
+    max-width: 777px;
+    width: 100%;
+}
+
+.icon-box {
+    width: 1046px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.search-icon {
+    display: flex;
+    max-width: 60px;
+    width: 100%;
+}
+
+.check-mark-icon {
+    display: flex;
+    max-width: 96px;
+    width: 100%;
+}
+
+.book-enjoy-icon {
+    display: flex;
+    max-width: 96px;
+    width: 100%;
+}
+
+.icon-text {
+    font-family: 'Courier New', Courier, monospace; /* ALEO */
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
