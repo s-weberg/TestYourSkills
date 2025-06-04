@@ -1,3 +1,4 @@
+
 .header {
     height: 820px;
     background-image: url('../images/header.png');
@@ -6,6 +7,7 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -82,13 +84,14 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        justify-content: space-around;
+
 
 
     &__scroll {
         display: flex;
         align-items: center;
         justify-content: center;
+       
     }
 }
 
